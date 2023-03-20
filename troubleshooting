@@ -1,0 +1,7 @@
+./openshift-install gather bootstrap --bootstrap bootstrap.ocp.spring.net --master master1.ocp.spring.net
+
+ curl -v https://api.ocp.spring.net:6443
+ 
+  wget --verbose --debug --no-check-certificate   https://api.ocp.spring.net:6443
+  
+  
